@@ -1,0 +1,18 @@
+  <div class="container">
+      <h1>Superheroes</h1>
+         <hr>
+         <div class="row" id="items"></div>
+
+        <template id="template-card">
+            <div class="col-12 mb-2 col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5></h5>
+                  <p></p>
+                  <img src="" alt="" class="img-thumbnail my-4"></img>
+                  <button type="button" class="btn btn-dark m-2">Like</button><span></span>
+                  <label id="like"></label>
+                </div>
+              </div>
+            </div>
+          </template>
